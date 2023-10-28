@@ -1,19 +1,19 @@
 provider "aws" {
-  region = "ap-northeast-2"
+  region = "us-east-1"
 }
 
 # Create a Launch Configuration
 resource "aws_launch_configuration" "example" {
   name_prefix                 = "example-lc-"
   instance_type                 = "t2.micro"
-  image_id                      = "ami-0f8aef1783704ebc9"
-  key_name                      = "Key-3"
+  image_id                      = "ami-01eccbf80522b562b"
+  key_name                      = "DEMO-1"
   # Specify the subnet IDs where the launch configuration can launch instances
   associate_public_ip_address  = true
 }
 
 data "aws_subnet" "example" {
-  id = "subnet-0abf54ffe836d8608"
+  id = "subnet-0474d85fe79ef1f5d"
 }
 
 resource "aws_autoscaling_group" "example" {
