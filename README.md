@@ -4,21 +4,21 @@ This repository contains Terraform configurations for setting up an AWS Auto Sca
 
 ## Project Structure
 
-├── main.tf
-├── variables.tf
-├── modules
-│ ├── launch_configuration
-│ │ ├── main.tf
-│ │ └── variables.tf
-│ ├── autoscaling_group
-│ │ ├── main.tf
-│ │ └── variables.tf
-│ ├── autoscaling_policies
-│ │ ├── main.tf
-│ │ └── variables.tf
-│ └── cloudwatch_alarms
-│ ├── main.tf
-│ └── variables.tf
+├── main.tf <br>
+├── variables.tf <br>
+├── modules <br>
+│ ├── launch_configuration <br>
+│ │ ├── main.tf <br>
+│ │ └── variables.tf <br>
+│ ├── autoscaling_group <br>
+│ │ ├── main.tf <br>
+│ │ └── variables.tf <br>
+│ ├── autoscaling_policies <br>
+│ │ ├── main.tf <br>
+│ │ └── variables.tf <br>
+│ └── cloudwatch_alarms <br>
+│ ├── main.tf <br>
+│ └── variables.tf <br>
 
 
 ## Prerequisites
