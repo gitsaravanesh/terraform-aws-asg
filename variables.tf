@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "image_id" {
   description = "The AMI ID for the Launch Configuration"
   type        = string
-  default     = "ami-01eccbf80522b562b"
+  default     = "ami-09b0a86a2c84101e1"
 }
 
 variable "key_name" {
