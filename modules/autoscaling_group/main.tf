@@ -10,6 +10,11 @@ resource "aws_autoscaling_group" "example" {
   desired_capacity     = var.asg_desired_capacity
   vpc_zone_identifier  = [data.aws_subnet.example.id]
 
+  launch_template {
+    id      = var.launch_template_id
+    version = var.launch_template_version
+  }
+
   tag {
     key                 = "Name"
     value               = "example"
