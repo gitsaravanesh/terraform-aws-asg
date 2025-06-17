@@ -4,7 +4,7 @@ data "aws_subnet" "example" {
 
 resource "aws_autoscaling_group" "example" {
   name                 = "example"
-  launch_configuration = var.launch_configuration_id
+  launch_template      = var.launch_template_id
   min_size             = var.asg_min_size
   max_size             = var.asg_max_size
   desired_capacity     = var.asg_desired_capacity
