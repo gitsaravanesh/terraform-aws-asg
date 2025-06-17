@@ -3,7 +3,7 @@ variable "subnet_id" {
   type        = string
 }
 
-variable "launch_configuration_id" {
+variable "launch_template_id" {
   description = "The ID of the Launch Configuration"
   type        = string
 }
