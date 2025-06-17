@@ -1,7 +1,7 @@
 variable "region" {
   description = "The AWS region to deploy resources in"
   type        = string
-  default     = "ap-south-1"
+  default     = "ap-southeast-2"
 }
 
 variable "instance_type" {
@@ -13,13 +13,13 @@ variable "instance_type" {
 variable "image_id" {
   description = "The AMI ID for the Launch Configuration"
   type        = string
-  default     = "ami-09b0a86a2c84101e1"
+  default     = "ami-010876b9ddd38475e"
 }
 
 variable "key_name" {
   description = "The key name for the Launch Configuration"
   type        = string
-  default     = "DEMO-1"
+  default     = "Prac-Key"
 }
 
 variable "subnet_id" {
