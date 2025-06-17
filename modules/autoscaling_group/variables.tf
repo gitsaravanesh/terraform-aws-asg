@@ -8,6 +8,11 @@ variable "launch_template_id" {
   type        = string
 }
 
+variable "launch_template_version" {
+  description = "The version of the launch template to use"
+  type        = string
+}
+
 variable "asg_min_size" {
   description = "The minimum size of the Auto Scaling Group"
   type        = number
