@@ -25,7 +25,7 @@ variable "key_name" {
 variable "subnet_id" {
   description = "The ID of the subnet to launch instances in"
   type        = string
-  default     = "subnet-0474d85fe79ef1f5d"
+  default     = "subnet-02c91bec6f4d6af2f"
 }
 
 variable "asg_min_size" {
